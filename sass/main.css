@@ -352,6 +352,15 @@ footer a {
     left: 50%;
     transform: translateX(-50%); } }
 
+.main img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
+  @media (max-width: 768px) {
+    .main img {
+      max-width: 300px; } }
 label {
   display: block;
   letter-spacing: 4px;
